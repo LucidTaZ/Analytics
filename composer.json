@@ -1,0 +1,25 @@
+{
+    "name": "lucidtaz/analytics",
+    "description": "Server-side analytics tool",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thijs Zumbrink",
+            "email": "thijs@schalpoen.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "lucidtaz\\analytics\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "lucidtaz\\analytics\\tests\\": "tests/" }
+    }
+}
